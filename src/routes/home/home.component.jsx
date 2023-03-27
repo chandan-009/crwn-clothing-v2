@@ -1,7 +1,7 @@
 import Directory from '../../components/directory/directory.component';
 
 const Home = () => {
-  const categories = [
+  const cat = [
     {
       id: 1,
       title: 'hats',
@@ -29,7 +29,7 @@ const Home = () => {
     },
   ];
 
-  return <Directory categories={categories} />;
+  return <Directory categories={cat} />;
 };
 
 export default Home;
